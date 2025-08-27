@@ -1,0 +1,52 @@
+{
+  "lines": [
+    {
+      "name": "Linie A: Klassen-Objekte-Kapselung",
+      "color": "#e41a1c",
+      "stations": [
+        { "name": "Klasse", "coords": [-150, -50, 0], "info": "Die Blaupause für Objekte.", "link": "https://sites.google.com/bbzbl-it.ch/modul320-2526q1-moal/themen/klassen-und-objekte" },
+        { "name": "Objekt", "coords": [-80, -20, 10], "info": "Eine Instanz einer Klasse.", "link": "https://sites.google.com/bbzbl-it.ch/modul320-2526q1-moal/themen/klassen-und-objekte" },
+        
+		
+        { "name": "Kapselung", "coords": [-30, 0, 10], "info": "Schutz von internen Daten.", "link": "https://sites.google.com/bbzbl-it.ch/modul320-2526q1-moal/themen/kapselung" },
+		
+        { "name": "Konstruktor", "coords": [0, 20, 0], "info": "Methode zur Erzeugung von Objekten.", "link": "https://sites.google.com/bbzbl-it.ch/modul320-2526q1-moal/themen/konstruktor" },
+        { "name": "Mehrere Fachklassen", "coords": [50, 100, 10], "info": "Aufteilung der Logik in separate Klassen.", "link": "https://sites.google.com/bbzbl-it.ch/modul320-2526q1-moal/themen/mehrere-fachklassen" }
+		
+		
+		
+      ]
+    },
+    {
+      "name": "Linie B: UML & Javadoc",
+      "color": "#377eb8",
+      "stations": [
+        { "name": "UML", "coords": [100, -200, 0], "info": "Visuelle Sprache zur Modellierung von Software." },
+        { "name": "Javadoc", "coords": [50, -150, 10], "info": "Tool zur Erstellung von Codedokumentation." },
+        { "name": "Modellieren & Implementieren", "coords": [-50, -100, 0], "info": "Übersetzung der Idee in Code." }
+      ]
+    },
+    {
+      "name": "Linie C: Testen & Datenstruktur",
+      "color": "#4daf4a",
+      "stations": [
+{ "name": "Mehrere Fachklassen", "coords": [50, 100, 10], "info": "Aufteilung der Logik in separate Klassen.", "link": "https://sites.google.com/bbzbl-it.ch/modul320-2526q1-moal/themen/mehrere-fachklassen" },
+        { "name": "ArrayList<T>", "coords": [50, -20, 0], "info": "Eine dynamische Liste." },
+        { "name": "Modellieren & Implementieren", "coords": [-50, -100, 0], "info": "Übersetzung der Idee in Code." },
+        { "name": "Unittests", "coords": [-100, -150, 10], "info": "Testen einzelner Codeeinheiten." }
+      ]
+    },
+    {
+      "name": "Linie D: Vererbung & Polymorphie",
+      "color": "#984ea3",
+      "stations": [
+{ "name": "Mehrere Fachklassen", "coords": [50, 100, 10], "info": "Aufteilung der Logik in separate Klassen.", "link": "https://sites.google.com/bbzbl-it.ch/modul320-2526q1-moal/themen/mehrere-fachklassen" },
+        { "name": "Vererbung", "coords": [100, 150, 0], "info": "Weitergabe von Eigenschaften." },
+        { "name": "Polymorphie", "coords": [150, 100, 10], "info": "Ein Objekt, viele Formen." },
+        { "name": "Abstrakte Klasse", "coords": [150, 50, 0], "info": "Klasse mit unvollständigen Methoden." },
+        { "name": "Interfaces", "coords": [150, -100, 10], "info": "Vertrag für das Verhalten einer Klasse." },
+        { "name": "UML", "coords": [100, -200, 0], "info": "Visuelle Sprache zur Modellierung von Software." }
+      ]
+    }
+  ]
+}

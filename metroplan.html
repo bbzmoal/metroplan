@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>OOP Metroplan</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background-color: #f0f2f5; }
+        h1 { color: #333; text-align: center; }
+        #tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 8px;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    pointer-events: auto; /* Wichtig: Ermöglicht Klicks */
+        }
+        .line {
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+        .station-circle {
+            fill: #fff;
+            stroke: #333;
+            stroke-width: 2px;
+            transition: transform 0.2s, fill 0.2s;
+            cursor: pointer;
+        }
+        .station-circle:hover {
+            transform: scale(1.2);
+            fill: #555;
+        }
+        .station-label {
+            font-size: 10px;
+            font-weight: bold;
+            text-anchor: middle;
+            pointer-events: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grundlagen der Objektorientierung als Metroplan</h1>
+    <div style="text-align: center;">
+        <svg id="metro-map" width="1000" height="700"></svg>
+    </div>
+    <div id="tooltip"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="metroplan.js"></script>
+</body>
+</html>
